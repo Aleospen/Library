@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+<div id="headDIV">
+</head>
+<body>
+
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Libre+Baskerville&family=Macondo&display=swap" rel="stylesheet"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Kanit:wght@100&family=Libre+Baskerville&family=Macondo&family=Nanum+Gothic&display=swap" rel="stylesheet"> 
+
+    <header>
+        <h1 id="HeaderText">Library</h1>
+    </header>
+     
+    <div class="buttonContainer">
+        <input type="checkbox" id="modal">
+        <label class="btn" for="modal">New Book</label>
+
+        <form action="" class="popup">
+        <span>Book stats</span>
+   
+        <input type="text" name="name" placeholder="Name" class="inputClass" id="name" required>
+        <input type="text" name="author" placeholder="Author" id="author" required>
+        <input type="number" name="pages" placeholder="Pages" id="pages" required>
+        <input type="url" name="title" placeholder="Title" id="title" required> 
+        <input class="submit" type="submit" onclick="check(); addBookToLibrary(); displayBook()" >
+    </form>
+    </div>
+
+        <div id="DataChest" >
+            <!-- <div class="BookBlock">
+                <div><img class="img_read" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_212516.png&f=1&nofb=1" ></div>
+                <div class="img"> !!!
+                   <img class="imgLogo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.8LPxqTvPFvkgPax6lRcYPwHaKe%26pid%3DApi&f=1" ></div> 
+               <div class='Name'>The Hobbit</div>
+               <div class='Author'>Tolkien</div>
+               <div class='Pages'>Pages: 640</div>  
+               <div ><img class="img_delete" src="https://diogofcr.github.io/library/images/remove.png" >
+            </div>   
+        
+            <div class="BookBlock">
+                <div><img class="img_read" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_212516.png&f=1&nofb=1" ></div>
+                <div class="img"> 
+                    <img class="imgLogo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffeedthemultiverse.com%2Fwp-content%2Fuploads%2F2018%2F02%2Frepeatbookcover.jpg&f=1&nofb=1" ></div>
+                <div class='Name'>Book</div>
+                <div class='Author'>Tiffany Munro</div>
+                <div class='Pages'>Pages: 200</div>
+                <div><img class="img_delete" src="https://diogofcr.github.io/library/images/remove.png" > -->
+            </div>
+        
+                 
+</body>
+    <script src="code.js" defer></script>
+</body>
+</html>

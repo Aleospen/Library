@@ -1,0 +1,165 @@
+body {
+    /* height: 100vh;
+    margin: 0;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2F3%2F2%2F0%2F120572-gorgerous-library-wallpaper-1920x1080-download.jpg&f=1&nofb=1);
+    background-size: cover;
+    background-position: center; */
+
+
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgb(80, 186, 224);
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4{
+    width: 1vmax;
+}
+
+
+img{
+    max-height: 100%;
+    height: auto;
+}
+
+
+#HeaderText {
+    text-align: center;
+    width: 2vw;
+    font-family: 'Macondo';
+    padding-left: 49%;
+    padding-right: 49%;
+}
+
+/*                                                                                                              B U T T O N                                                                                                     */
+
+
+.buttonContainer{
+    padding-left: 5%;
+    text-align: center;
+    width: 10vmax;
+    height: 10vmax;
+    padding-left: 46%;
+    padding-right: 46%;
+}
+
+.btn{
+    background-color: white;
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.popup{
+    display: block;
+    padding: 1vw;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    transition: .5s all;
+    top: -999px;
+}
+
+.popup input { 
+    display: block;
+    width: 100%;
+    border: none;
+    height: 25px;
+    margin: 10px 0;
+}
+
+#modal:checked ~ .popup {
+    top: 0;
+}
+
+#modal {
+    display: none;
+}
+
+/*                                                                                                              C L A S S E S                                                                                                     */ 
+
+
+
+.BookBlock{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px black solid;
+    background-color: rgb(121, 95, 193);
+    width: 16vmin;
+    height: 16vmax;
+    padding: 2vw;
+    margin: 1%;
+    border-radius: 35%;
+    flex-direction: column;
+}
+
+
+.imgLogo{
+     width: 8vmax;
+    height: 12vmax;
+    border: 1px white solid; 
+     position: relative;
+    bottom: 3vw; 
+}
+
+.Text{
+    line-height: 5vmin;
+    font-size: 1vmax;
+    padding: 1vmax;
+}
+
+
+.Name {
+    position: relative;
+    right: 6vw;
+    top: 9vw;
+}
+
+.Author {
+    position: relative;
+    right: 6vw;
+    top: 6vw;
+    text-align: center;
+}
+
+.Pages {
+    position: relative;
+    top: 9vw;
+    right: 6vw;
+}
+
+.img_delete {
+    height: 1vh;
+    width: 1vw;
+    padding: 5px;
+    
+}
+
+.img_read {
+    height: 1vw;
+    width: 2vw;
+    padding-bottom: 25vh;
+    padding-left: 8vw;
+}                                                                                                                                                                                                                        
+
+#DataChest{
+    position: relative;
+    display: flex;          
+    flex-flow: row wrap;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 30vh;
+    
+}
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imgDIV { width: 4vw; height: 4vh; }
