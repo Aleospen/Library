@@ -9,6 +9,7 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     background-color: rgb(80, 186, 224);
     color: rgb(255, 255, 255);
+   
 }
 
 h1, h2, h3, h4{
@@ -100,12 +101,13 @@ img{
 }
 
 
-.imgLogo{
-     width: 8vmax;
+.imgLogo {
+    width: 8vmax;
     height: 12vmax;
     border: 1px white solid; 
-     position: relative;
-    bottom: 3vw; 
+    position: relative; 
+    bottom: 5vh;
+     
 }
 
 .Text{
@@ -114,38 +116,43 @@ img{
     padding: 1vmax;
 }
 
-
 .Name {
     position: relative;
-    right: 6vw;
-    top: 9vw;
+    padding: 5px;
+    bottom: 10vh;
+    margin: 5px;
 }
 
 .Author {
     position: relative;
-    right: 6vw;
-    top: 6vw;
+    bottom: 10vh;
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 
 .Pages {
     position: relative;
-    top: 9vw;
-    right: 6vw;
+    bottom: 10vh;
+    padding: 5px;
+    margin: 5px;
 }
 
 .img_delete {
     height: 1vh;
     width: 1vw;
     padding: 5px;
-    
+    position: relative;
+    top: 10vh;
 }
 
 .img_read {
     height: 1vw;
     width: 2vw;
-    padding-bottom: 25vh;
-    padding-left: 8vw;
+    padding-bottom: 1vw;
+    left: 3.3vw;
+    position: relative;
+    bottom: 3.9vh;
 }                                                                                                                                                                                                                        
 
 #DataChest{
